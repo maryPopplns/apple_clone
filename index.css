@@ -29,13 +29,20 @@ main > nav {
 main > nav > span {
   flex-grow: 1;
   width: auto;
-  border: 1px solid black;
-  /* border-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAQAAABTNcdGAAAAEUlEQVQIHWP4r8bA8F%2BKwQEADZUCf37PGokAAAAASUVORK5CYII%3D')
-    0 2 0 1; */
+  cursor: grab;
+  border: 1px solid white;
+}
+
+main > nav > span:hover {
+  background: red;
+}
+
+main > nav > span:nth-child(1) {
+  background: url('./assets/nav_bar_sprite.svg') 45% -1%;
 }
 
 nav > input {
-  transition: width 1s;
+  transition: 0.4s;
   width: 132px;
 }
 
