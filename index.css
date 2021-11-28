@@ -33,10 +33,6 @@ main > nav > span {
   border: 1px solid white;
 }
 
-main > nav > span:hover {
-  background: red;
-}
-
 main > nav > span:nth-child(1) {
   background: url('./assets/nav_bar_sprite.svg') 45% -1%;
 }
