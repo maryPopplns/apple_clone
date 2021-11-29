@@ -165,7 +165,7 @@ aside > ul > li {
   box-sizing: border-box;
   width: 360px;
   height: 200px;
-  background-color: rgb(255, 170, 170);
+  overflow: hidden;
   border-top: 2px solid white;
 }
 
@@ -186,7 +186,52 @@ aside > ul > li > img {
 
 footer {
   box-sizing: border-box;
-  width: 1440px;
+  width: 980px;
   height: 90px;
-  /* border: 1px solid black; */
+  padding-top: 25px;
+  color: #6e6e6e;
+  font-size: 10px;
+  font-family: 'Lucida Grande';
+}
+
+#top-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+#left-footer > a,
+#right-footer > ol > li,
+#bottom-footer > ol > li > a {
+  color: #08c;
+}
+
+#left-footer > a:hover,
+#right-footer > ol > li:hover,
+#bottom-footer > ol > li > a:hover {
+  text-decoration: underline;
+}
+
+#right-footer > ol {
+  display: flex;
+}
+
+#right-footer > ol > li {
+  padding: 0 3px;
+}
+
+#right-footer > ol > li:nth-child(-n + 6) {
+  border-right: 1px solid black;
+}
+
+#bottom-footer {
+  display: flex;
+  padding-top: 1.5em;
+}
+
+#bottom-footer > ol {
+  display: flex;
+}
+
+#bottom-footer > ol > li {
+  padding: 0 3px;
 }
