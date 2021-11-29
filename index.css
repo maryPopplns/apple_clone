@@ -18,9 +18,9 @@ main > nav {
   top: 83px;
   height: 36px;
   width: 980px;
-  /* background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAHVQTFRFAAAA%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F5YtmQAAAACd0Uk5TAAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8gISIjJCUmZiD6WAAAAdlJREFUeF7t3btuFEEQheFzunotGYkIERA4spn3fyeHiAgEEtsXB82s2eEJavR%2F0Wjyo75XWfHpw4MkSXNqCkA2lr2%2B%2Fvz63n15qpI0x5yTSAM52XaxJLVXf%2FkoaY6xQk2sgXy8Ql2KJf3wS5HG6HMMQg3kZNkuxVGKNLxJo48%2BxhxTpBrIx7JcXEqUKJI3zd77CjWLaiAle4U6Iixv6q33MfocTL%2BBlCy7OEqJqCFvs%2FV2m3%2BTaiAd6zb7rlHtrbc1VA%2Bm30BSa%2B%2B7RNSo4a21thbVTL%2BBnCy7rCV1rdXbtbXW%2B%2Bh%2Ft78BZLM2v6NE1Fov%2FrpC3Zl%2BA2l5H6lrrRe%2FXNu%2BqCbUQE57qGvsoW5t9D4H028gJculOKLUWuvFz%2B16O9NipAZSsm8nWpfq53ZlTQ3k9s%2BamlADZ0CogZMh1MDJEGrgZAg1cDL%2Fh5ojLSC1%2ByMtLp8A2R0un3BNFEjv%2FpooDzqA9O4fdPD0Esju8PSSIglAdsciCZQzArI7lDOat30yCg8CGe2FB1eovZcI7oMSwUBSq0TwWlQHxfyBEzgW86ftDpDase0ODfKA7A4N8mhlC2R318r2px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC')
+  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAHVQTFRFAAAA%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F5YtmQAAAACd0Uk5TAAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8gISIjJCUmZiD6WAAAAdlJREFUeF7t3btuFEEQheFzunotGYkIERA4spn3fyeHiAgEEtsXB82s2eEJavR%2F0Wjyo75XWfHpw4MkSXNqCkA2lr2%2B%2Fvz63n15qpI0x5yTSAM52XaxJLVXf%2FkoaY6xQk2sgXy8Ql2KJf3wS5HG6HMMQg3kZNkuxVGKNLxJo48%2BxhxTpBrIx7JcXEqUKJI3zd77CjWLaiAle4U6Iixv6q33MfocTL%2BBlCy7OEqJqCFvs%2FV2m3%2BTaiAd6zb7rlHtrbc1VA%2Bm30BSa%2B%2B7RNSo4a21thbVTL%2BBnCy7rCV1rdXbtbXW%2B%2Bh%2Ft78BZLM2v6NE1Fov%2FrpC3Zl%2BA2l5H6lrrRe%2FXNu%2BqCbUQE57qGvsoW5t9D4H028gJculOKLUWuvFz%2B16O9NipAZSsm8nWpfq53ZlTQ3k9s%2BamlADZ0CogZMh1MDJEGrgZAg1cDL%2Fh5ojLSC1%2ByMtLp8A2R0un3BNFEjv%2FpooDzqA9O4fdPD0Esju8PSSIglAdsciCZQzArI7lDOat30yCg8CGe2FB1eovZcI7oMSwUBSq0TwWlQHxfyBEzgW86ftDpDase0ODfKA7A4N8mhlC2R318r2px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC')
       no-repeat 50% 50%,
-    linear-gradient(#808080 0, #707070 50%, #5e5e5e 50%, #666 100%); */
+    linear-gradient(#808080 0, #707070 50%, #5e5e5e 50%, #666 100%);
 
   border-radius: 4px;
   box-shadow: rgb(0 0 0 / 30%) 0 1px 2px;
@@ -33,30 +33,105 @@ main > nav > ul {
 }
 
 main > nav > ul > li {
+  display: flex;
   flex-grow: 1;
   width: auto;
   cursor: grab;
-  border: 1px solid white;
 }
 
-/* main > nav > a > span:nth-child(1) {
-  background: url('./assets/nav_bar_sprite.svg') 45% -1%;
-} */
+main > nav > ul > li:nth-child(1) {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
 
-/* box-shadow: rgb(0 0 0 / 60%) 0 2px 1px inset, rgb(255 255 255 / 20%) 0 1px 0; */
+main > nav > ul > li:hover {
+  /* main > nav > ul > li:nth-child(1) { */
+  background: url('./assets/buttonSprite.png') 100% 100%;
+}
+
+main > nav > ul > li > a,
+main > nav > ul > li > a > span {
+  display: flex;
+  flex-grow: 1;
+}
+
+#apple {
+  background: url('./assets/nav_bar_sprite.svg') 45% -1%;
+}
+
+#store {
+  background: url('./assets/nav_bar_sprite.svg') 45% 13.1%;
+}
+
+#mac {
+  background: url('./assets/nav_bar_sprite.svg') 45% 27.7%;
+}
+
+#ipod {
+  background: url('./assets/nav_bar_sprite.svg') 45% 42%;
+}
+
+#iphone {
+  background: url('./assets/nav_bar_sprite.svg') 45% 56.8%;
+}
+
+#ipad {
+  background: url('./assets/nav_bar_sprite.svg') 45% 71.8%;
+}
+
+#itunes {
+  background: url('./assets/nav_bar_sprite.svg') 45% 86.3%;
+}
+
+#support {
+  background: url('./assets/nav_bar_sprite.svg') 45% 101.2%;
+}
 
 .fa-search {
-  margin-left: 3px;
+  position: relative;
+  top: 1px;
   margin-right: 3px;
 }
 
-nav > input {
-  width: 132px;
-  transition: 0.3s linear;
+#search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
 }
 
-nav > input:focus {
-  width: 196px;
+#input-container {
+  display: flex;
+  align-items: center;
+  height: 60%;
+  margin: 0 5px;
+  padding: 0 5px;
+  border: 0 none;
+  box-shadow: rgb(0 0 0 / 60%) 0 2px 1px inset, rgb(255 255 255 / 20%) 0 1px 0;
+  font-size: 0.7em;
+  border-radius: 1em;
+  transition: 0.5s;
+  color: white;
+}
+
+#input-container:focus-within {
+  color: black;
+  background: white;
+}
+
+#input-container > input {
+  box-sizing: border-box;
+  width: 91px;
+  transition: 0.3s linear;
+  background: none;
+  border: none;
+}
+
+#input-container > input:focus {
+  width: 155px;
+  text-indent: 0.5em;
+  /* background: white; */
+  outline: none;
 }
 
 aside > ul {
