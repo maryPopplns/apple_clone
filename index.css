@@ -141,7 +141,6 @@ main > header {
   display: flex;
   flex-direction: column;
   height: 335px;
-  border: 1px solid white;
 }
 
 main > header > img:nth-child(1) {
@@ -180,9 +179,14 @@ aside > ul > li:nth-child(3) {
   border-left: 1px solid white;
 }
 
+aside > ul > li > img {
+  width: 360px;
+  height: 200px;
+}
+
 footer {
   box-sizing: border-box;
   width: 1440px;
   height: 90px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
