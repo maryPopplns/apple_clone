@@ -1,1 +1,3 @@
-
+(function inputBackgroundChanger() {
+  const
+})()
